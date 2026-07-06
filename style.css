@@ -124,6 +124,27 @@ a:hover {
   font-size: 1rem;
 }
 
+/* ===== Teaser Figure ===== */
+.teaser {
+  max-width: var(--max-w);
+  margin: 2.5rem auto 0;
+  text-align: center;
+}
+
+.teaser img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+}
+
+.teaser figcaption {
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  color: var(--clr-muted);
+  font-style: italic;
+}
+
 /* ===== University Labels ===== */
 .uni-label {
   font-size: 0.95rem;
